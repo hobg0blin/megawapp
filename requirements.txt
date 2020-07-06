@@ -54,7 +54,7 @@ grpc-google-iam-v1==0.12.3
 grpcio==1.23.0
 h5py==2.9.0
 helper==2.4.2
-httplib2==0.17.2
+httplib2==0.18.0
 hyperlink==19.0.0
 idna==2.8
 importlib-metadata==1.5.0
