@@ -4,6 +4,16 @@
 
 As of right now, this takes Nick Montfort’s highly idiosyncratic Megawatt code and tries to turn it into, first, a traditional python package, then a Flask server that uses that package code to deliver Megawatt on its frontend.
 
+## Getting set up
+
+The best practice for setting up this project is to ensure [Anaconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) is installed, then creating and activating a `megawatt` conda environment from the environment.yml file in root:
+
+```
+  conda env create -f environment.yml
+  conda activate megawatt
+
+```
+
 ## Modulizing
 
 We’re following the traditional python module structure described [here](https://docs.python-guide.org/writing/structure/).
